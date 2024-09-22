@@ -20,8 +20,8 @@ You can save/open food diary and favorites files, and export data in csv format.
 # iFoodTrack Animation
 <figure>
 	<div>
-		<video width="500" controls poster="../Images/iFoodTrackmacOS/02a iFTmacOS main window TimeChart light.png" muted preload="auto">
-			<source src="../Videos/iFoodTrackmacOS_compressed.mp4" type="video/mp4">
+		<video width="500" controls poster="images/screenshots/02a iFTmacOS main window TimeChart light.png" muted preload="auto">
+			<source src="videos/iFoodTrackmacOS_compressed.mp4" type="video/mp4">
 			<!-- For non-HTML5 browsers: -->
 			Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
 			to download the Firefox browser for your operating system.
@@ -259,34 +259,34 @@ extension FBMainSplitVC: FBNavigationDelegate {
 <table>
 <tr>
 	<td>
-	<img src="../images/iFoodTrackmacOS/01a iFTmacOS main window Diary light.png" alt="blue marble weather daily forecast" width="500"/>
+	<img src="images/screenshots/01a iFTmacOS main window Diary light.png" alt="blue marble weather daily forecast" width="500"/>
 	</td>
 	<td>
-	<img src="../images/iFoodTrackmacOS/01b iFTmacOS main window Diary dark.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-</tr>
-<tr>
-	<td>
-	<img src="../images/iFoodTrackmacOS/02a iFTmacOS main window TimeChart light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-	<td>
-	<img src="../images/iFoodTrackmacOS/05a iFTmacOS main window Trash light.png" alt="blue marble weather daily forecast" width="500"/>
+	<img src="images/screenshots/01b iFTmacOS main window Diary dark.png" alt="blue marble weather daily forecast" width="500"/>
 	</td>
 </tr>
 <tr>
 	<td>
-	<img src="../images/iFoodTrackmacOS/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
+	<img src="images/screenshots/02a iFTmacOS main window TimeChart light.png" alt="blue marble weather daily forecast" width="500"/>
 	</td>
 	<td>
-	<img src="../images/iFoodTrackmacOS/06a iFTmacOS Settings Advanced light.png" alt="blue marble weather daily forecast" width="500"/>
+	<img src="images/screenshots/05a iFTmacOS main window Trash light.png" alt="blue marble weather daily forecast" width="500"/>
 	</td>
 </tr>
 <tr>
 	<td>
-	<img src="../images/iFoodTrackmacOS/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
+	<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
 	</td>
 	<td>
-	<img src="../images/iFoodTrackmacOS/012a Settings Window Demo light.png" alt="blue marble weather daily forecast" width="400"/>
+	<img src="images/screenshots/06a iFTmacOS Settings Advanced light.png" alt="blue marble weather daily forecast" width="500"/>
+	</td>
+</tr>
+<tr>
+	<td>
+	<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
+	</td>
+	<td>
+	<img src="images/screenshots/012a Settings Window Demo light.png" alt="blue marble weather daily forecast" width="400"/>
 	</td>
 </tr>
 </table>
