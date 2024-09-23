@@ -6,11 +6,13 @@ iFoodTrack is organized with a left navigation bar, a middle detail view, for ch
 You can save/open food diary and favorites files, and export data in csv format. Nutrient data can be tracked over time in pie charts, bar charts and stacked-bar charts, with related-foods listed below charts.
 <br></br>
 
+
 <h2>Available on the Mac AppStore:</h2>
 <a href="https://apps.apple.com/us/app/ifoodtrack/id6467825539"> 
 	<img src="images/pics/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on Mac App Store"</img> 
 </a>
 <br></br>
+
 
 # Technologies Used
 ## Languages and Frameworks							
@@ -46,6 +48,7 @@ Rather than using Xcode's Interface Builder and Cocoa Bindings for building and 
 
 In order to achieve backward compatibility with older macOS versions, charts for displaying nutrient and food count data were built from the ground up. This included the updating and formatting of x- and y- axis values and labels, a y-axis average-value dashed-line, and a mouse-tracking vertical line for selecting individual dates in bar charts to show updated daily data.
 <br></br>
+
 
 ## Sample Code:
 ### Plotting daily nutrient totals in time-bar charts:
@@ -86,8 +89,8 @@ In order to achieve backward compatibility with older macOS versions, charts for
         }
     }
 ```
-<br>
-</br>
+<br></br>
+
 
 ### A test for validating nutrient value calculations:
 ```swift
@@ -153,12 +156,10 @@ In order to achieve backward compatibility with older macOS versions, charts for
         
     }
 ```
-<br>
-</br>
+<br></br>
 
 
 ### A test to confirm conversion of double values to scientific notation, for display in chart y-axis labels:
-
 ```swift
     func testConvertDoubleToSciNotationForGraph() {
         // Given
@@ -212,12 +213,10 @@ In order to achieve backward compatibility with older macOS versions, charts for
         }
     }
 ```
-<br>
-</br>
+<br></br>
 
 
 ### Sample code structure for App Navigation:
-
 ```swift
 // MARK: - FBNavigationDelegate Methods
 extension FBMainSplitVC: FBNavigationDelegate {
@@ -264,46 +263,45 @@ extension FBMainSplitVC: FBNavigationDelegate {
     }
     ... ...
 ```
-<br>
-</br>
+<br></br>
+
 
 # Sample Screen Shots
 <table>
-<tr>
-	<td>
-	<img src="images/screenshots/01a iFTmacOS main window Diary light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-	<td>
-	<img src="images/screenshots/01b iFTmacOS main window Diary dark.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-</tr>
-<tr>
-	<td>
-	<img src="images/screenshots/02a iFTmacOS main window TimeChart light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-	<td>
-	<img src="images/screenshots/05a iFTmacOS main window Trash light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-</tr>
-<tr>
-	<td>
-	<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-	<td>
-	<img src="images/screenshots/06a iFTmacOS Settings Advanced light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-</tr>
-<tr>
-	<td>
-	<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-	<td>
-	<img src="images/screenshots/012a Settings Window Demo light.png" alt="blue marble weather daily forecast" width="400"/>
-	</td>
-</tr>
+	<tr>
+		<td>
+		<img src="images/screenshots/01a iFTmacOS main window Diary light.png" alt="blue marble weather daily forecast" width="500"/>
+		</td>
+		<td>
+		<img src="images/screenshots/01b iFTmacOS main window Diary dark.png" alt="blue marble weather daily forecast" width="500"/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img src="images/screenshots/02a iFTmacOS main window TimeChart light.png" alt="blue marble weather daily forecast" width="500"/>
+		</td>
+		<td>
+		<img src="images/screenshots/05a iFTmacOS main window Trash light.png" alt="blue marble weather daily forecast" width="500"/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
+		</td>
+		<td>
+		<img src="images/screenshots/06a iFTmacOS Settings Advanced light.png" alt="blue marble weather daily forecast" width="500"/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
+		</td>
+		<td>
+		<img src="images/screenshots/012a Settings Window Demo light.png" alt="blue marble weather daily forecast" width="400"/>
+		</td>
+	</tr>
 </table>
 
-<!-- ![readme-bluemarbleweather-daily](../images/BMW%20MainView%20Daily.png) -->
 
 ## I've implemented the following:
 #### Code Structure
