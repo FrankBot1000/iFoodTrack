@@ -314,28 +314,29 @@ extension FBMainSplitVC: FBNavigationDelegate {
 
 #### Testing/Error Handling
 * Unit Testing
-* Error handling
+* Error Handling
 * Alerts
-* Empty states
+* Empty States
 * Random Generation of Sample Test Data
-* Text input validation
+* Text Input Validation
 
 #### Security
-* Image asset validation, in Assembly
+* Image Asset Validation, in Assembly
 * UserDefaults in Keychain
 * Username/Password validation
 
-#### Customization
-* Toolbar and Menu selections
-* Code documentation, DocC
-* Settings Window with TabBar subviews
+#### User Customizations
+* Settings Startup Options
+* Unit Conversions
+* Theme Colors
+* Custom Threshold Values
 * Light and Dark Mode Selections
 
 #### Project Organization
-* Code documentation (DocC)
-* Help Book manual
+* Code Documentation (DocC)
 * Privacy Manifest
-* Group folder organization
+* Group Folder Organization
+* Help Book Manual
 
 
 # Future Considerations
