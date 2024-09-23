@@ -270,34 +270,34 @@ extension FBMainSplitVC: FBNavigationDelegate {
 <table>
 	<tr>
 		<td>
-		<img src="images/screenshots/01a iFTmacOS main window Diary light.png" alt="blue marble weather daily forecast" width="500"/>
+		<img src="images/screenshots/01a iFTmacOS main window Diary light.png" alt="iFoodTrack Diary View" width="500"/>
 		</td>
 		<td>
-		<img src="images/screenshots/01b iFTmacOS main window Diary dark.png" alt="blue marble weather daily forecast" width="500"/>
-		</td>
-	</tr>
-	<tr>
-		<td>
-		<img src="images/screenshots/02a iFTmacOS main window TimeChart light.png" alt="blue marble weather daily forecast" width="500"/>
-		</td>
-		<td>
-		<img src="images/screenshots/05a iFTmacOS main window Trash light.png" alt="blue marble weather daily forecast" width="500"/>
+		<img src="images/screenshots/01b iFTmacOS main window Diary dark.png" alt="iFoodTrack Diary Dark" width="500"/>
 		</td>
 	</tr>
 	<tr>
 		<td>
-		<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
+		<img src="images/screenshots/02a iFTmacOS main window TimeChart light.png" alt="iFoodTrack Time Chart" width="500"/>
 		</td>
 		<td>
-		<img src="images/screenshots/06a iFTmacOS Settings Advanced light.png" alt="blue marble weather daily forecast" width="500"/>
+		<img src="images/screenshots/05a iFTmacOS main window Trash light.png" alt="iFoodTrack Trash View" width="500"/>
 		</td>
 	</tr>
 	<tr>
 		<td>
-		<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
+		<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="Settings Appearance" width="500"/>
 		</td>
 		<td>
-		<img src="images/screenshots/012a Settings Window Demo light.png" alt="blue marble weather daily forecast" width="400"/>
+		<img src="images/screenshots/06a iFTmacOS Settings Advanced light.png" alt="Settings Advanced" width="500"/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img src="images/screenshots/09a iFTmacOS Settings Charts light.png" alt="Settings Charts" width="500"/>
+		</td>
+		<td>
+		<img src="images/screenshots/012a Settings Window Demo light.png" alt="Settings Demo" width="400"/>
 		</td>
 	</tr>
 </table>
