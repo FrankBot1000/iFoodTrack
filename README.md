@@ -4,18 +4,30 @@ iFoodTrack is a macOS App built using Swift and AppKit that integrates the USDA 
 iFoodTrack is organized with a left navigation bar, a middle detail view, for charts and lists, and a right extended details view describing data averages and trends. 
 
 You can save/open food diary and favorites files, and export data in csv format. Nutrient data can be tracked over time in pie charts, bar charts and stacked-bar charts, with related-foods listed below charts.
+<br></br>
 
-# Technologies Used								
+<h2>Available on the Mac AppStore:</h2>
+<a href="https://apps.apple.com/us/app/ifoodtrack/id6467825539"> 
+	<img src="images/pics/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on Mac App Store"</img> 
+</a>
+<br></br>
+
+# Technologies Used
+## Languages and Frameworks							
 * Swift Programming language
+* Assembly Language
 * AppKit framework
+
+## Apple Technologies
 * Core Data
 * Core Graphics
 * AutoLayout
 * Unit Testing
 * Documentation (DocC)
+
+## Other
 * Git Version Control
-* Security/Assembly Language
-* File Management, Keychain Files
+<br></br>
 
 # iFoodTrack Animation
 <figure>
@@ -293,30 +305,44 @@ extension FBMainSplitVC: FBNavigationDelegate {
 
 <!-- ![readme-bluemarbleweather-daily](../images/BMW%20MainView%20Daily.png) -->
 
-### This App required many long nights of implementations that would not have survived without the passion to keep it going. I've done the following:
+## I've implemented the following:
+#### Code Structure
 * Model-View-Controller Design Pattern
 * Delegates and Protocols, NSViewController/NSView
 * Navigation Split Views
+* Generics for Core Data objects
+
+#### Testing/Error Handling
 * Unit Testing
-* Code documentation, DocC
 * Error handling
-* Toolbar and Menu selections
-* Settings Window with TabBar subviews
-* Help Book manual
 * Alerts
 * Empty states
 * Random Generation of Sample Test Data
-* Username/Password validation
 * Text input validation
-* Generics for Core Data objects
+
+#### Security
+* Image asset validation, in Assembly
+* UserDefaults in Keychain
+* Username/Password validation
+
+#### Customization
+* Toolbar and Menu selections
+* Code documentation, DocC
+* Settings Window with TabBar subviews
 * Light and Dark Mode Selections
+
+#### Project Organization
+* Code documentation (DocC)
+* Help Book manual
 * Privacy Manifest
-* Project organization
+* Group folder organization
 
 
 # Future Considerations
 * Sync with HealthKit, for newer macOS versions
 * Implement Core Data's CloudKit syncing
 * InterOp with SwiftUI, to implement SwiftCharts for newer macOS versions
+
+
 
 
