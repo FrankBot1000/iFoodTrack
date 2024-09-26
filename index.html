@@ -1,24 +1,32 @@
 <h1>iFoodTrack</h1>
 <p>iFoodTrack is a macOS App built using Swift and AppKit that integrates the USDA FoodCentral database. You can look up food details, save favorites, maintain a food diary and track nutrient and food count totals in charts.</p>
 <p>iFoodTrack is organized with a left navigation bar, a middle detail view, for charts and lists, and a right extended details view describing data averages and trends.</p>
-<p>You can save/open food diary and favorites files, and export data in csv format. Nutrient data can be tracked over time in pie charts, bar charts and stacked-bar charts, with related-foods listed below charts.</p>
+<p>You can save/open food diary and favorites files, and export data in csv format. Nutrient data can be tracked over time in pie charts, bar charts and stacked-bar charts, with related-foods listed below charts.
+<br></br></p>
 <h2>Available on the Mac AppStore:</h2>
 <a href="https://apps.apple.com/us/app/ifoodtrack/id6467825539"> 
 	<img src="images/pics/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on Mac App Store"</img> 
 </a>
 <br></br>
 <h1>Technologies Used</h1>
+<h2>Languages and Frameworks</h2>
 <ul>
 <li>Swift Programming language</li>
+<li>Assembly Language</li>
 <li>AppKit framework</li>
+</ul>
+<h2>Apple Technologies</h2>
+<ul>
 <li>Core Data</li>
 <li>Core Graphics</li>
 <li>AutoLayout</li>
 <li>Unit Testing</li>
 <li>Documentation (DocC)</li>
-<li>Git Version Control</li>
-<li>Security/Assembly Language</li>
-<li>File Management, Keychain Files</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>Git Version Control
+<br></br></li>
 </ul>
 <h1>iFoodTrack Animation</h1>
 <figure>
@@ -73,8 +81,7 @@
         }
     }
 </code></pre>
-<br>
-</br>
+<p><br></br></p>
 <h3>A test for validating nutrient value calculations:</h3>
 <pre><code class="language-swift">/// Test will test Food Nutrient DRV percent calculation using DRV nutrient defaults. The result should yield 100% for all DRV Nutrient calculations.
     func testCalculateNutValues_recalculateDRVPercent() {
@@ -138,8 +145,7 @@
         
     }
 </code></pre>
-<br>
-</br>
+<p><br></br></p>
 <h3>A test to confirm conversion of double values to scientific notation, for display in chart y-axis labels:</h3>
 <pre><code class="language-swift">    func testConvertDoubleToSciNotationForGraph() {
         // Given
@@ -193,8 +199,7 @@
         }
     }
 </code></pre>
-<br>
-</br>
+<p><br></br></p>
 <h3>Sample code structure for App Navigation:</h3>
 <pre><code class="language-swift">// MARK: - FBNavigationDelegate Methods
 extension FBMainSplitVC: FBNavigationDelegate {
@@ -241,68 +246,86 @@ extension FBMainSplitVC: FBNavigationDelegate {
     }
     ... ...
 </code></pre>
-<br>
-</br>
+<p><br></br></p>
 <h1>Sample Screen Shots</h1>
 <table>
-<tr>
-	<td>
-	<img src="images/screenshots/01a iFTmacOS main window Diary light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-	<td>
-	<img src="images/screenshots/01b iFTmacOS main window Diary dark.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-</tr>
-<tr>
-	<td>
-	<img src="images/screenshots/02a iFTmacOS main window TimeChart light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-	<td>
-	<img src="images/screenshots/05a iFTmacOS main window Trash light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-</tr>
-<tr>
-	<td>
-	<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-	<td>
-	<img src="images/screenshots/06a iFTmacOS Settings Advanced light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-</tr>
-<tr>
-	<td>
-	<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="blue marble weather daily forecast" width="500"/>
-	</td>
-	<td>
-	<img src="images/screenshots/012a Settings Window Demo light.png" alt="blue marble weather daily forecast" width="400"/>
-	</td>
-</tr>
+	<tr>
+		<td>
+		<img src="images/screenshots/01a iFTmacOS main window Diary light.png" alt="iFoodTrack Diary View" width="500"/>
+		</td>
+		<td>
+		<img src="images/screenshots/01b iFTmacOS main window Diary dark.png" alt="iFoodTrack Diary Dark" width="500"/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img src="images/screenshots/02a iFTmacOS main window TimeChart light.png" alt="iFoodTrack Time Chart" width="500"/>
+		</td>
+		<td>
+		<img src="images/screenshots/05a iFTmacOS main window Trash light.png" alt="iFoodTrack Trash View" width="500"/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="Settings Appearance" width="500"/>
+		</td>
+		<td>
+		<img src="images/screenshots/06a iFTmacOS Settings Advanced light.png" alt="Settings Advanced" width="500"/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<img src="images/screenshots/09a iFTmacOS Settings Charts light.png" alt="Settings Charts" width="500"/>
+		</td>
+		<td>
+		<img src="images/screenshots/012a Settings Window Demo light.png" alt="Settings Demo" width="400"/>
+		</td>
+	</tr>
 </table>
-<!-- ![readme-bluemarbleweather-daily](../images/BMW%20MainView%20Daily.png) -->
-<h3>This App required many long nights of implementations that would not have survived without the passion to keep it going. I’ve done the following:</h3>
+<h2>I’ve implemented the following:</h2>
+<h4>Code Structure</h4>
 <ul>
 <li>Model-View-Controller Design Pattern</li>
 <li>Delegates and Protocols, NSViewController/NSView</li>
 <li>Navigation Split Views</li>
-<li>Unit Testing</li>
-<li>Code documentation, DocC</li>
-<li>Error handling</li>
-<li>Toolbar and Menu selections</li>
-<li>Settings Window with TabBar subviews</li>
-<li>Help Book manual</li>
-<li>Alerts</li>
-<li>Empty states</li>
-<li>Random Generation of Sample Test Data</li>
-<li>Username/Password validation</li>
-<li>Text input validation</li>
 <li>Generics for Core Data objects</li>
+</ul>
+<h4>Testing/Error Handling</h4>
+<ul>
+<li>Unit Testing</li>
+<li>Error Handling</li>
+<li>Alerts</li>
+<li>Empty States</li>
+<li>Random Generation of Sample Test Data</li>
+<li>Text Input Validation</li>
+</ul>
+<h4>Security</h4>
+<ul>
+<li>Image Asset Validation, in Assembly</li>
+<li>UserDefaults in Keychain</li>
+<li>Username/Password validation</li>
+</ul>
+<h4>User Customizations</h4>
+<ul>
+<li>Settings Startup Options</li>
+<li>Unit Conversions</li>
+<li>Theme Colors</li>
+<li>Custom Threshold Values</li>
 <li>Light and Dark Mode Selections</li>
+</ul>
+<h4>Project Organization</h4>
+<ul>
+<li>Code Documentation (DocC)</li>
 <li>Privacy Manifest</li>
-<li>Project organization</li>
+<li>Group Folder Organization</li>
+<li>Help Book Manual</li>
 </ul>
 <h1>Future Considerations</h1>
 <ul>
 <li>Sync with HealthKit, for newer macOS versions</li>
 <li>Implement Core Data’s CloudKit syncing</li>
-<li>InterOp with SwiftUI, to implement SwiftCharts for newer macOS versions</li>
+<li>InterOp with SwiftUI, to implement SwiftCharts for newer macOS versions
+<br></br></li>
 </ul>
+<h1>FeedBack</h1>
+<p class="contact-message">If you have any feedback or suggestions you can reach out via <a class="btn" href="mailto:fbotlogic@fbotlogicsolutions.com?subject=Blue Marble Weather Support">Email</a>.</p>
