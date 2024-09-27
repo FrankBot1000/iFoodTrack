@@ -29,16 +29,21 @@
 <br></br></li>
 </ul>
 <h1>iFoodTrack Animation</h1>
+<!-- 
+<p><video width="500" src="https://github.com/user-attachments/assets/128c86cc-3137-4106-a06d-f2b5cd8137f2">
+</video></p>
+ -->
 <figure>
 	<div>
 		<video width="500" controls poster="images/screenshots/02a iFTmacOS main window TimeChart light.png" muted preload="auto">
 			<source src="videos/iFoodTrackmacOS_compressed.mp4" type="video/mp4">
-			<!-- For non-HTML5 browsers: -->
+			<!- - For non-HTML5 browsers: - ->
 			Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
 			to download the Firefox browser for your operating system.
 		</video>
 	</div>
 </figure>
+
 <h1>An AppKit Project using Programmatic-UI…</h1>
 <p>Rather than using Xcode’s Interface Builder and Cocoa Bindings for building and connecting Views, iFoodTrack views and window components were built using only Programmatic-UI. By doing everything programmatically, it allowed me to better manage an organized and structured code base under git source control. It also gave me a deeper appreciation for how things like UITableView and window components are built. Another challenge was building a navigation system using protocols and delegates to communicate data changes for different parts of the App.</p>
 <p>In order to achieve backward compatibility with older macOS versions, charts for displaying nutrient and food count data were built from the ground up. This included the updating and formatting of x- and y- axis values and labels, a y-axis average-value dashed-line, and a mouse-tracking vertical line for selecting individual dates in bar charts to show updated daily data.
