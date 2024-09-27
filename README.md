@@ -31,12 +31,23 @@ You can save/open food diary and favorites files, and export data in csv format.
 * Git Version Control
 <br></br>
 
+
 # iFoodTrack Animation
+
+[//]: # "NB: For README.md Github videos, Use GitHub asset urls eg. https://github.com/user-attachments/assets/xxxxxPlaceholderFileNameHerexxxxx as video source (derived first by dragging-dropping a video within the README.md file to get the url)."
+<!-- 
+<video width="500" src="https://github.com/user-attachments/assets/xxxxxPlaceholderFileNameHerexxxxx">
+</video>
+<video width="500" src="https://github.com/user-attachments/assets/xxxxxPlaceholderFileNameHerexxxxx">
+</video>
+ -->
+
+[//]: # "For webpage, use embedded below figure instead"
 <figure>
 	<div>
 		<video width="500" controls poster="images/screenshots/02a iFTmacOS main window TimeChart light.png" muted preload="auto">
 			<source src="videos/iFoodTrackmacOS_compressed.mp4" type="video/mp4">
-			<!-- For non-HTML5 browsers: -->
+			<!- - For non-HTML5 browsers: - ->
 			Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
 			to download the Firefox browser for your operating system.
 		</video>
