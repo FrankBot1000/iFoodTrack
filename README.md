@@ -39,6 +39,7 @@ You can save/open food diary and favorites files, and export data in csv format.
 
 
 [//]: # "For webpage, use embedded below figure instead"
+<!-- 
 <figure>
 	<div>
 		<video width="500" controls poster="images/screenshots/02a iFTmacOS main window TimeChart light.png" muted preload="auto">
@@ -49,6 +50,7 @@ You can save/open food diary and favorites files, and export data in csv format.
 		</video>
 	</div>
 </figure>
+ -->
 
 # An AppKit Project using Programmatic-UI...
 Rather than using Xcode's Interface Builder and Cocoa Bindings for building and connecting Views, iFoodTrack views and window components were built using only Programmatic-UI. By doing everything programmatically, it allowed me to better manage an organized and structured code base under git source control. It also gave me a deeper appreciation for how things like UITableView and window components are built. Another challenge was building a navigation system using protocols and delegates to communicate data changes for different parts of the App.
