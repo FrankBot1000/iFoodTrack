@@ -328,6 +328,7 @@ extension FBMainSplitVC: FBNavigationDelegate {
 * Text Input Validation
 
 #### Security
+* Runtime Check for Debugger, in Assembly
 * Image Asset Validation, in Assembly
 * UserDefaults in Keychain
 * Username/Password validation
