@@ -1,5 +1,5 @@
 <h1>iFoodTrack</h1>
-<p>iFoodTrack is a macOS App built using Swift and AppKit that integrates the USDA FoodCentral database. You can look up food details, save favorites, maintain a food diary and track nutrient and food count totals in charts.</p>
+<p>iFoodTrack is a macOS App built using Swift and AppKit that integrates the USDA FoodCentral database. You can look up food details, save favorites, create meals, build a food diary and track nutrient and food count totals in charts.</p>
 <p>iFoodTrack is organized with a left navigation bar, a middle detail view, for charts and lists, and a right extended details view describing data averages and trends.</p>
 <p>You can save/open food diary and favorites files, and export data in csv format. Nutrient data can be tracked over time in pie charts, bar charts and stacked-bar charts, with related-foods listed below charts.
 <br></br></p>
@@ -14,6 +14,7 @@
 <li>Swift Programming language</li>
 <li>Assembly Language</li>
 <li>AppKit framework</li>
+<li>SwiftUI (SubscriptionStoreView)</li>
 </ul>
 <h2>Apple Technologies</h2>
 <ul>
@@ -36,7 +37,7 @@
 <figure>
 	<div>
 		<video width="500" controls poster="images/screenshots/02a iFTmacOS main window TimeChart light.png" muted preload="auto">
-			<source src="videos/iFoodTrackmacOS_compressed.mp4" type="video/mp4">
+			<source src="videos/iFoodTrack_compressed_121824.mp4" type="video/mp4">
 			<!- - For non-HTML5 browsers: - ->
 			Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
 			to download the Firefox browser for your operating system.
@@ -267,7 +268,7 @@ extension FBMainSplitVC: FBNavigationDelegate {
 		<img src="images/screenshots/02a iFTmacOS main window TimeChart light.png" alt="iFoodTrack Time Chart" width="500"/>
 		</td>
 		<td>
-		<img src="images/screenshots/05a iFTmacOS main window Trash light.png" alt="iFoodTrack Trash View" width="500"/>
+		<img src="images/screenshots/06a iFTmacOS main window Trash banana light.png" alt="iFoodTrack Trash View" width="500"/>
 		</td>
 	</tr>
 	<tr>
@@ -275,7 +276,7 @@ extension FBMainSplitVC: FBNavigationDelegate {
 		<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="Settings Appearance" width="500"/>
 		</td>
 		<td>
-		<img src="images/screenshots/06a iFTmacOS Settings Advanced light.png" alt="Settings Advanced" width="500"/>
+		<img src="images/screenshots/010a iFTmacOS Settings Advanced light.png" alt="Settings Advanced" width="500"/>
 		</td>
 	</tr>
 	<tr>
@@ -283,7 +284,7 @@ extension FBMainSplitVC: FBNavigationDelegate {
 		<img src="images/screenshots/09a iFTmacOS Settings Charts light.png" alt="Settings Charts" width="500"/>
 		</td>
 		<td>
-		<img src="images/screenshots/012a Settings Window Demo light.png" alt="Settings Demo" width="400"/>
+		<img src="images/screenshots/011a Settings Window Demo light.png" alt="Settings Demo" width="500"/>
 		</td>
 	</tr>
 </table>
@@ -330,8 +331,7 @@ extension FBMainSplitVC: FBNavigationDelegate {
 <ul>
 <li>Sync with HealthKit, for newer macOS versions</li>
 <li>Implement Core Data’s CloudKit syncing</li>
-<li>InterOp with SwiftUI, to implement SwiftCharts for newer macOS versions
-<br></br></li>
+<li><br></br></li>
 </ul>
 <h1>FeedBack</h1>
 <p class="contact-message">If you have any feedback or suggestions you can reach out via <a class="btn" href="mailto:fbotlogic@fbotlogicsolutions.com?subject=Blue Marble Weather Support">Email</a>.</p>
