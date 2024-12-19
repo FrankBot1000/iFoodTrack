@@ -19,6 +19,7 @@ You can save/open food diary and favorites files, and export data in csv format.
 * Swift Programming language
 * Assembly Language
 * AppKit framework
+* SwiftUI (SubscriptionStoreView)
 
 ## Apple Technologies
 * Core Data
@@ -290,7 +291,7 @@ extension FBMainSplitVC: FBNavigationDelegate {
 		<img src="images/screenshots/02a iFTmacOS main window TimeChart light.png" alt="iFoodTrack Time Chart" width="500"/>
 		</td>
 		<td>
-		<img src="images/screenshots/05a iFTmacOS main window Trash light.png" alt="iFoodTrack Trash View" width="500"/>
+		<img src="images/screenshots/06a iFTmacOS main window Trash banana light.png" alt="iFoodTrack Trash View" width="500"/>
 		</td>
 	</tr>
 	<tr>
@@ -298,7 +299,7 @@ extension FBMainSplitVC: FBNavigationDelegate {
 		<img src="images/screenshots/08a iFTmacOS Settings Appearance light.png" alt="Settings Appearance" width="500"/>
 		</td>
 		<td>
-		<img src="images/screenshots/06a iFTmacOS Settings Advanced light.png" alt="Settings Advanced" width="500"/>
+		<img src="images/screenshots/010a iFTmacOS Settings Advanced light.png" alt="Settings Advanced" width="500"/>
 		</td>
 	</tr>
 	<tr>
@@ -306,7 +307,7 @@ extension FBMainSplitVC: FBNavigationDelegate {
 		<img src="images/screenshots/09a iFTmacOS Settings Charts light.png" alt="Settings Charts" width="500"/>
 		</td>
 		<td>
-		<img src="images/screenshots/012a Settings Window Demo light.png" alt="Settings Demo" width="400"/>
+		<img src="images/screenshots/011a Settings Window Demo light.png" alt="Settings Demo" width="500"/>
 		</td>
 	</tr>
 </table>
@@ -318,6 +319,7 @@ extension FBMainSplitVC: FBNavigationDelegate {
 * Delegates and Protocols, NSViewController/NSView
 * Navigation Split Views
 * Generics for Core Data objects
+* InterOp with SwiftUI; implemented SubscriptionStoreView
 
 #### Testing/Error Handling
 * Unit Testing
