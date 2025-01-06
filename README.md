@@ -44,7 +44,7 @@ You can save/open food diary and favorites files, and export data in csv format.
 <figure>
 	<div>
 		<video width="500" controls poster="images/screenshots/02a iFTmacOS main window TimeChart light.png" muted preload="auto">
-			<source src="videos/iFoodTrackmacOS_compressed.mp4" type="video/mp4">
+			<source src="videos/iFoodTrack_V250_compressed_010525.mp4" type="video/mp4">
 			<!- - For non-HTML5 browsers: - ->
 			Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
 			to download the Firefox browser for your operating system.
