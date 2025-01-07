@@ -1,5 +1,5 @@
 # iFoodTrack
-iFoodTrack is a macOS App built using Swift and AppKit that integrates the USDA FoodCentral database. You can look up food details, save favorites, maintain a food diary and track nutrient and food count totals in charts. 
+iFoodTrack is a macOS App built using Swift and AppKit that integrates the USDA FoodCentral database. You can look up food details, save favorites, create meals from favorites, build a food diary and track nutrient and food count totals in charts. 
 
 iFoodTrack is organized with a left navigation bar, a middle detail view, for charts and lists, and a right extended details view describing data averages and trends. 
 
