@@ -35,8 +35,9 @@ You can save/open food diary and favorites files, and export data in csv format.
 
 # iFoodTrack Animation
 [//]: # "NB: For README.md Github videos, Use GitHub asset urls eg. https://github.com/user-attachments/assets/xxxxxPlaceholderFileNameHerexxxxx as video source (derived first by dragging-dropping a video within the README.md file to get the url)."
-<video width="500" src="https://github.com/user-attachments/assets/ec013f78-3ccc-4630-bbeb-f55c80fabae8">
+<video width="500" src="https://github.com/user-attachments/assets/48a3e097-bbe6-421f-a573-d6ed1b032b22">
 </video>
+
 
 
 [//]: # "For webpage, use embedded below figure instead"
