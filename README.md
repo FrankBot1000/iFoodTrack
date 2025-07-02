@@ -337,12 +337,13 @@ extension FBMainSplitVC: FBNavigationDelegate {
 * UserDefaults in Keychain
 * Username/Password validation
 
-#### User Customizations
+#### User Customizations & Accessibility
 * Settings Startup Options
 * Unit Conversions
 * Theme Colors
 * Custom Threshold Values
 * Light and Dark Mode Selections
+* Keyboard-Based VoiceOver Accessibility
 
 #### Project Organization
 * Code Documentation (DocC)
@@ -354,7 +355,6 @@ extension FBMainSplitVC: FBNavigationDelegate {
 # Future Considerations
 * Sync with HealthKit, for newer macOS versions
 * Implement Core Data's CloudKit syncing
-* InterOp with SwiftUI, to implement SwiftCharts for newer macOS versions
 <br></br>
 
 
