@@ -43,16 +43,18 @@ You can save/open food diary and favorites files, and export data in csv format.
 
 [//]: # "For webpage, use embedded below figure instead"
 <!-- 
-<figure>
-	<div>
-		<video width="500" controls poster="images/screenshots/01 iFTmacOS Diary Fish Item 051525.png" muted preload="auto">
-			<source src="videos/iFoodTrack_Mac_compressed 052325.mp4" type="video/mp4">
-			<!- - For non-HTML5 browsers: - ->
-			Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
-			to download the Firefox browser for your operating system.
-		</video>
-	</div>
-</figure>
+ <div style="display: inline-block">
+     <figure>
+         <div>
+             <video width="500" controls poster="images/screenshots/iFoodTrack macOS26 yellow tint screenshot Fish 092925.png" muted preload="auto">
+                 <source src="videos/iFoodTrack macOS26 compressed 092925.mp4" type="video/mp4">
+                 <!- - For non-HTML5 browsers: - ->
+                     Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a>
+                     to download the Firefox browser for your operating system.
+             </video>
+         </div>
+     </figure>
+ </div>
  -->
 
 # An AppKit Project using Programmatic-UI...
@@ -280,38 +282,38 @@ extension FBMainSplitVC: FBNavigationDelegate {
 
 # Sample Screen Shots
 <table>
-	<tr>
-		<td>
-		<img src="images/screenshots/01 iFTmacOS Diary Fish Item 051525.png" alt="iFoodTrack Diary View" width="500"/>
-		</td>
-		<td>
-		<img src="images/screenshots/02a iFTmacOS Time Chart Dark 051525.png" alt="iFoodTrack Diary Dark" width="500"/>
-		</td>
-	</tr>
-	<tr>
-		<td>
-		<img src="images/screenshots/02b iFTmacOS Time Chart Single Item Banana 051525.png" alt="iFoodTrack Time Chart" width="500"/>
-		</td>
-		<td>
-		<img src="images/screenshots/02c iFTmacOS Time Chart Protein-Carb-Fat 051525.png" alt="iFoodTrack Trash View" width="500"/>
-		</td>
-	</tr>
-	<tr>
-		<td>
-		<img src="images/screenshots/05a iFTmacOS Meals Dinner Fish 051525.png" alt="Settings Appearance" width="500"/>
-		</td>
-		<td>
-		<img src="images/screenshots/06b iFTmacOS Trash Cookie Dark Selection 051525.png" alt="Settings Advanced" width="500"/>
-		</td>
-	</tr>
-	<tr>
-		<td>
-		<img src="images/screenshots/07b iFTmacOS Settings Appearance 051525.png" alt="Settings Charts" width="500"/>
-		</td>
-		<td>
-		<img src="images/screenshots/07d iFTmacOS Settings Advanced 051525.png" alt="Settings Demo" width="500"/>
-		</td>
-	</tr>
+    <tr>
+        <td>
+            <img src="images/screenshots/03 iFTmacOS26 Library Pasta.png" alt="Library Pasta" width="500" />
+        </td>
+        <td>
+            <img src="images/screenshots/02a iFTmacOS26 TimeChart Calories Dark.png" alt="TimeChart Calories Dark" width="500" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="images/screenshots/02c iFTmacOS26 TimeChart Single Item Rice Food Count.png" alt="TimeChart Single Item Rice Food Count" width="500" />
+        </td>
+        <td>
+            <img src="images/screenshots/02b iFTmacOS26 TimeChart Stacked Protein-Carb-Fat2.png" alt="iFoodTrack Trash View" width="500" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="images/screenshots/05a iFTmacOS26 Meals FishFillet.png" alt="Meals FishFillet" width="500" />
+        </td>
+        <td>
+            <img src="images/screenshots/06b iFTmacOS26 Trash with selections.png" alt="Trash with selections" width="500" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="images/screenshots/07b iFTmacOS26 Settings Appearance.png" alt="Settings Appearance" width="500" />
+        </td>
+        <td>
+            <img src="images/screenshots/07d iFTmacOS26 Settings Advanced.png" alt="Settings Advanced" width="500" />
+        </td>
+    </tr>
 </table>
 
 
