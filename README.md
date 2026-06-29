@@ -56,7 +56,7 @@ You can save/open food diary and favorites files, and export data in csv format.
  -->
 
 # An AppKit Project using Programmatic-UI...
-Rather than using Xcode's Interface Builder and Cocoa Bindings for building and connecting Views, iFoodTrack views and window components were built using only Programmatic-UI. By doing everything programmatically, it allowed me to better manage an organized and structured code base under git source control. It also gave me a deeper appreciation for how things like NSTableView and window components are built. Another challenge was building a navigation system using protocols and delegates to communicate data changes for different parts of the App.
+Rather than using Xcode's Interface Builder and Cocoa Bindings for building and connecting Views, iFoodTrack views and window components were built using only Programmatic-UI. By doing everything programmatically, it allowed for better management of an organized and structured code base under git source control. It also enabled careful fine-tuning of interface components like NSTableView. The navigation system was also custom built using protocols and delegates to communicate data changes to different parts of the App.
 
 In order to achieve backward compatibility with older macOS versions, charts for displaying nutrient and food count data were built from the ground up. This included the updating and formatting of x- and y- axis values and labels, a y-axis average-value dashed-line, and a mouse-tracking vertical line for selecting individual dates in bar charts to show updated daily data.
 <br></br>
@@ -353,7 +353,7 @@ extension FBMainSplitVC: FBNavigationDelegate {
 
 
 # Future Considerations
-* Sync with HealthKit, for newer macOS versions
+* Sync with HealthKit, once it becomes available in newer macOS versions
 * Implement Core Data's CloudKit syncing
 <br></br>
 
